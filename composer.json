@@ -1,0 +1,7 @@
+{
+    "require": {
+        "react/react": "^1.3",
+        "rebing/graphql-laravel": "^8.5",
+        "dadapas/mvola-php": "^1.2"
+    }
+}

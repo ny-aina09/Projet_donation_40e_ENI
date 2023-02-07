@@ -5,6 +5,7 @@ import Donation from './frontOffice/donation/Donation';
 import Contact from './frontOffice/contact/Contact';
 import Projet from './frontOffice/projets/Projet';
 
+
 // import Home from './backOffice/Home';
 // import Administrateur from './backOffice/Administrateur';
 // import Donateur from './backOffice/Donateur';
@@ -19,11 +20,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           {/* Routes - FrontOffice */}
-          <Route index element={<Accueil/>} />
-          <Route path="accueil" element={<Accueil/>} />
-          <Route path="donation" element={<Donation/>} />
-          <Route path="contact" element={<Contact/>} />
-          <Route path="projets" element={<Projet/>} />
+          <Route index element={<Accueil />} />
+          <Route path="accueil" element={<Accueil />} />
+          <Route path="donation" element={<Donation />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="projets" element={<Projet />} />
 
           {/* Routes - BackOffice */}
           {/* <Route path="bord" element={<Home/>} />

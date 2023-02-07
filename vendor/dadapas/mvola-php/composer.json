@@ -1,0 +1,52 @@
+{
+    "name": "dadapas/mvola-php",
+    "description": "A simple class wrapper for MVola mobile money for Madagascar.",
+    "type": "library",
+    "version": "1.2.1",
+    "autoload": {
+        "psr-4": {
+            "MVolaphp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MVolaphp\\Tests\\": "tests/"
+        }
+    },
+    "keywords": [
+        "mvola",
+        "php-sdk",
+        "mobile-money",
+        "library",
+        "madagascar"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TOVOHERY",
+            "email": "tovoherypascal@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/dadapas/mvola-php/issues"
+    },
+    "require": {
+        "php": ">=7.1",
+        "ext-curl": "*",
+        "ramsey/uuid": "^4.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "psr/log": "^1.1"
+    },
+    "suggest": {
+        "psr/log": "Required for using the Log middleware"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit ."
+        ]
+    }
+}

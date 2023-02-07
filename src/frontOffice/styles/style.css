@@ -7,7 +7,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Century Gothic";
 }
 
@@ -74,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo img {
   max-height: 50px;
-  border-radius:40px
+  border-radius: 40px
 }
 
 @media (max-width: 992px) {
@@ -91,11 +96,11 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
 }
 
-.nav-menu > ul {
+.nav-menu>ul {
   display: flex;
 }
 
-.nav-menu > ul > li {
+.nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
   padding: 10px 0 10px 28px;
@@ -111,7 +116,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active>a,
+.nav-menu li:hover>a {
   color: #95ce26;
 }
 
@@ -166,12 +173,14 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active>a,
+.mobile-nav li:hover>a {
   color: #95ce26;
   text-decoration: none;
 }
 
-.mobile-nav .drop-down > a:after {
+.mobile-nav .drop-down>a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 10px;
@@ -179,11 +188,11 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
 }
 
-.mobile-nav .active.drop-down > a:after {
+.mobile-nav .active.drop-down>a:after {
   content: "\eaa1";
 }
 
-.mobile-nav .drop-down > a {
+.mobile-nav .drop-down>a {
   padding-right: 35px;
 }
 
@@ -290,10 +299,12 @@ h1, h2, h3, h4, h5, h6 {
   #couverture {
     height: 100vh;
   }
+
   #couverture h1 {
     font-size: 28px;
     line-height: 36px;
   }
+
   #couverture h2 {
     font-size: 18px;
     line-height: 24px;
@@ -368,10 +379,12 @@ h1, h2, h3, h4, h5, h6 {
   #couverture-donation {
     height: 100vh;
   }
+
   #couverture-donation h1 {
     font-size: 28px;
     line-height: 36px;
   }
+
   #couverture-donation h2 {
     font-size: 18px;
     line-height: 24px;
@@ -396,7 +409,7 @@ section {
   font-weight: 600;
   font-size: 24px;
   /* color: #414c64; */
-  color:rgba(63, 64, 66, 0.7);
+  color: rgba(63, 64, 66, 0.7);
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -456,11 +469,11 @@ section {
   font-size: 14px;
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #6c757d;
@@ -471,9 +484,11 @@ section {
   .breadcrumbs .d-flex {
     display: block !important;
   }
+
   .breadcrumbs ol {
     display: block;
   }
+
   .breadcrumbs ol li {
     display: inline-block;
   }
@@ -684,7 +699,7 @@ section {
   list-style: none;
 }
 
-.faq .faq-list li + li {
+.faq .faq-list li+li {
   margin-top: 15px;
 }
 
@@ -714,7 +729,8 @@ section {
   color: #ffce3a;
 }
 
-.faq .faq-list .icon-show, .faq .faq-list .icon-close {
+.faq .faq-list .icon-show,
+.faq .faq-list .icon-close {
   font-size: 24px;
   position: absolute;
   right: 0;
@@ -754,7 +770,7 @@ section {
 }
 
 /* Contact */
-.contact{
+.contact {
   font-family: "Century Gothic";
 }
 
@@ -809,7 +825,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -842,13 +858,15 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
   border-color: #95ce26;
 }
 
@@ -877,6 +895,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -886,13 +905,14 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
 
 /* donation */
-.donation .container{
+.donation .container {
   font-family: "Century Gothic";
 }
 
@@ -948,7 +968,7 @@ section {
   font-weight: 600;
 }
 
-.donation .donation-form .error-message br + br {
+.donation .donation-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -981,13 +1001,15 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.donation .donation-form input, .donation .donation-form textarea {
+.donation .donation-form input,
+.donation .donation-form textarea {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
 }
 
-.donation .donation-form input:focus, .donation .donation-form textarea:focus {
+.donation .donation-form input:focus,
+.donation .donation-form textarea:focus {
   border-color: #95ce26;
 }
 
@@ -995,7 +1017,7 @@ section {
   padding: 20px 15px;
 }
 
-.donation .donation-form select{
+.donation .donation-form select {
   padding: 20px 15px;
 }
 
@@ -1020,6 +1042,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1029,6 +1052,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1047,7 +1071,8 @@ section {
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -1081,7 +1106,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
 
@@ -1192,5 +1217,5 @@ section {
 
 .don:hover {
   background: #95ce26;
-  color:white;
+  color: white;
 }

@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { libraryList, AjoutLibrary } from './File';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    {libraryList.forEach(x => AjoutLibrary(x))}
   </React.StrictMode>
 );
 
